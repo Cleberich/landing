@@ -1,0 +1,40 @@
+#servicios{
+    display: flex!important;
+    flex-wrap: wrap!important;
+    justify-content: center;
+    overflow-x: visible;
+    width: 100%;
+}
+#lunch{
+    width: 80%;
+    margin: 20px auto;
+    align-items: center;
+    display: flex;
+    overflow-x: scroll;
+    justify-content: center;
+}
+
+.lunch img{
+    width: 350px!important;
+    margin-right: 20px;
+}
+
+
+@media only screen and (max-width: 576px){
+    #cardService{
+        max-width: 98%!important;
+        justify-content: center;
+    }
+    #cardService .img{
+        max-width: 98%!important;
+    }
+}
+@media only screen and (min-width: 577px){
+    #cardService{
+        max-width: 30%!important;
+        justify-content: center;
+    }
+    #cardService .img{
+        max-width: 30%!important;
+    }
+}
